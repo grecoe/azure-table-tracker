@@ -1,0 +1,8 @@
+name: TableTracker
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9 
+  - pip
+  - pip:    
+    - azure-data-tables==12.0.0  
